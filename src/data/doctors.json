@@ -1,0 +1,37 @@
+{
+    "patients": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 45,
+        "condition": "Hypertension",
+        "lastVisit": "2025-10-20",
+        "notes": "Monitor blood pressure daily."
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 30,
+        "condition": "Diabetes",
+        "lastVisit": "2025-10-18",
+        "notes": "Check sugar levels twice a day."
+      }
+    ],
+    "appointments": [
+      {
+        "id": 1,
+        "patient": "John Doe",
+        "date": "2025-10-22",
+        "time": "10:00 AM",
+        "reason": "Routine checkup"
+      },
+      {
+        "id": 2,
+        "patient": "Jane Smith",
+        "date": "2025-10-22",
+        "time": "11:00 AM",
+        "reason": "Follow-up"
+      }
+    ]
+  }
+  

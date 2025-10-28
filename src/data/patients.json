@@ -1,0 +1,49 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "age": 32,
+      "email": "alice@example.com",
+      "medications": [
+        { "name": "Paracetamol", "dosage": "500mg", "time": "08:00 AM", "status": "Pending" },
+        { "name": "Amoxicillin", "dosage": "250mg", "time": "01:00 PM", "status": "Taken" }
+      ],
+      "adherenceRate": "80%",
+      "upcomingReminders": 2
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "age": 45,
+      "email": "bob@example.com",
+      "medications": [
+        { "name": "Vitamin D", "dosage": "1000 IU", "time": "09:00 PM", "status": "Upcoming" }
+      ],
+      "adherenceRate": "90%",
+      "upcomingReminders": 1
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Rupesh Sharma",
+      "specialization": "Cardiology",
+      "patientsAssigned": 25,
+      "appointmentsToday": 5
+    },
+    {
+      "id": 2,
+      "name": "Dr. Anjali Mehta",
+      "specialization": "Neurology",
+      "patientsAssigned": 18,
+      "appointmentsToday": 3
+    }
+  ]
+}
+
+
+ 
+ 
+
+  
